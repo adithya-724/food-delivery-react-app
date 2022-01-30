@@ -1,0 +1,19 @@
+.section {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+.section h1 {
+  color: #000;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.section p {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 2rem 0;
+}
+@media (min-width: 768px) {
+  .section {
+    margin-bottom: 5rem;
+  }
+}

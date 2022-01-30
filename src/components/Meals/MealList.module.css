@@ -1,0 +1,33 @@
+.label {
+  font-size: 2rem;
+}
+.image {
+  margin-top: 1rem;
+}
+.image img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+.item {
+  flex-basis: 50%;
+  text-align: center;
+  padding: 1rem;
+  transition: all 0.4s ease;
+}
+.item:hover {
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2),
+    -1rem -1rem 2rem rgba(255, 255, 255, 0.2);
+}
+.description {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .item {
+    flex-basis: auto;
+  }
+  .description {
+    font-size: 2rem;
+  }
+}

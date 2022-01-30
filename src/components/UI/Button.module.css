@@ -1,0 +1,16 @@
+.btn {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+}
+.primary {
+  color: #60b246;
+}
+.secondary {
+  color: red;
+}
+.btn:hover {
+  cursor: pointer;
+}

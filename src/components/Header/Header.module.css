@@ -1,0 +1,15 @@
+.header {
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.food-icon {
+  font-size: 4rem;
+  margin-left: 1.3rem;
+}
+.cart-button {
+  flex-grow: 1;
+  text-align: right;
+}

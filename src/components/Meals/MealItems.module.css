@@ -1,0 +1,9 @@
+.items {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 95%;
+  padding: 1.2rem;
+}
