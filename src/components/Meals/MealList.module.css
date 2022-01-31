@@ -1,8 +1,18 @@
 .label {
   font-size: 2rem;
+  /* text-decoration: underline #e97d18; */
+  position: relative;
+}
+.label::after {
+  content: "";
+  border-bottom: 2px solid #e97d18;
+  width: 100%;
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
 }
 .image {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .image img {
   width: 15rem;
@@ -22,6 +32,11 @@
 .description {
   margin-top: 1.3rem;
   font-size: 1.5rem;
+}
+.price {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   .item {

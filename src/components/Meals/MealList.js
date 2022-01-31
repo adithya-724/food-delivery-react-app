@@ -10,6 +10,7 @@ const MealList = (props) => {
         <img src={props.url} alt="" />
       </div>
       <div className={styles.description}>{props.description}</div>
+      <div className={styles.price}>{`$${props.price}`}</div>
       <div className={styles.form}>
         <MealForm id={props.id} />
       </div>
