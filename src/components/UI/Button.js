@@ -7,6 +7,8 @@ const Button = (props) => {
     classes = `${styles.primary} ${styles.btn}`;
   } else if (props.type === "secondary") {
     classes = `${styles.secondary} ${styles.btn}`;
+  } else if (props.type === "order") {
+    classes = `${styles.order} ${styles.btn}`;
   }
   return (
     <button onClick={props.onClick} className={classes}>

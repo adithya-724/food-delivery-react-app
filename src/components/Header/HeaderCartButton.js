@@ -2,10 +2,10 @@ import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import styles from "./HeaderCartButton.module.css";
 
-const HeaderCartButton = () => {
+const HeaderCartButton = (props) => {
   return (
     <>
-      <button className={styles.btn}>
+      <button className={styles.btn} onClick={props.onClick}>
         <span className={styles.group}>
           <span className={styles["cart-icon"]}>
             <FiShoppingCart />

@@ -1,0 +1,25 @@
+.items {
+  font-size: 5rem;
+  list-style: none;
+  text-align: left;
+}
+.amount {
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.label {
+  font-size: 2rem;
+}
+.price {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button-container button:nth-child(2) {
+  margin-left: 1rem;
+}

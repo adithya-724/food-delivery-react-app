@@ -4,7 +4,7 @@ import HeaderImage from "./HeaderImage";
 import styles from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       <header className={styles.header}>
@@ -15,7 +15,7 @@ const Header = () => {
           </span>
         </div>
         <div className={styles["cart-button"]}>
-          <HeaderCartButton />
+          <HeaderCartButton onClick={props.onClick} />
         </div>
       </header>
       <div>

@@ -5,11 +5,16 @@
   border: none;
   font-weight: bold;
 }
+.order {
+  background-color: #fc8019;
+  color: #fff;
+}
 .primary {
   color: #60b246;
 }
-.secondary {
-  color: red;
+.secondary:hover {
+  background-color: red;
+  color: #fff;
 }
 .btn:hover {
   cursor: pointer;
