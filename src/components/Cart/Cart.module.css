@@ -2,6 +2,8 @@
   font-size: 5rem;
   list-style: none;
   text-align: left;
+  max-height: 20rem;
+  overflow-y: scroll;
 }
 .amount {
   margin: 0.5rem 0 1rem 0;
