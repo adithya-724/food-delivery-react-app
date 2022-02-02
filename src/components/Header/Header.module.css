@@ -4,6 +4,11 @@
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
 }
 .food-icon {
   font-size: 4rem;
