@@ -2,6 +2,7 @@
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adithya-724.github.io/food-delivery-app-react",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -10,6 +11,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "axios": "^0.25.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
@@ -19,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

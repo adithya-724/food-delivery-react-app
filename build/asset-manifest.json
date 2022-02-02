@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/food-delivery-app-react/static/css/main.743a79ef.chunk.css",
+    "main.js": "/food-delivery-app-react/static/js/main.017e92c0.chunk.js",
+    "main.js.map": "/food-delivery-app-react/static/js/main.017e92c0.chunk.js.map",
+    "runtime-main.js": "/food-delivery-app-react/static/js/runtime-main.4476d4a4.js",
+    "runtime-main.js.map": "/food-delivery-app-react/static/js/runtime-main.4476d4a4.js.map",
+    "static/js/2.e4dcddb7.chunk.js": "/food-delivery-app-react/static/js/2.e4dcddb7.chunk.js",
+    "static/js/2.e4dcddb7.chunk.js.map": "/food-delivery-app-react/static/js/2.e4dcddb7.chunk.js.map",
+    "index.html": "/food-delivery-app-react/index.html",
+    "static/css/main.743a79ef.chunk.css.map": "/food-delivery-app-react/static/css/main.743a79ef.chunk.css.map",
+    "static/js/2.e4dcddb7.chunk.js.LICENSE.txt": "/food-delivery-app-react/static/js/2.e4dcddb7.chunk.js.LICENSE.txt",
+    "static/media/image2.dcb2433e.jpg": "/food-delivery-app-react/static/media/image2.dcb2433e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4476d4a4.js",
+    "static/js/2.e4dcddb7.chunk.js",
+    "static/css/main.743a79ef.chunk.css",
+    "static/js/main.017e92c0.chunk.js"
+  ]
+}
