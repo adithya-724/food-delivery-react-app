@@ -9,8 +9,12 @@ const Cart = (props) => {
   const cartCtx = useContext(cartContext);
   const hasItems = cartCtx.items.length > 0;
   const totalAmount = `$${cartCtx.amount.toFixed(2)}`;
-  const addItemHandler = (item) => {};
-  const removeItemHandler = (id) => {};
+  const addItemHandler = (item) => {
+    cartCtx.addItem({ ...item, amount: 1 });
+  };
+  const removeItemHandler = (id) => {
+    cartCtx.removeItem(id);
+  };
   return (
     <Modal onClose={props.onClose}>
       <ul className={styles.items}>
