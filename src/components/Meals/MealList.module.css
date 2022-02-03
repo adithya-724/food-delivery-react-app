@@ -1,6 +1,6 @@
 .label {
   font-size: 2rem;
-  /* text-decoration: underline #e97d18; */
+
   position: relative;
 }
 .label::after {
