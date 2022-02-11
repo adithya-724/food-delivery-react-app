@@ -1,5 +1,5 @@
 .header {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,7 +11,7 @@
   background-color: #fff;
 }
 .food-icon {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 1.3rem;
 }
 .cart-button {
